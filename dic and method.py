@@ -35,7 +35,35 @@ for key in info2.keys():
 info2={"name":"satishkumar","class":"BCA","age":24 ,"city":"bihar"}
 print(info.items())
 for key,values in info2.items():
-    print(f"the value of the {key} is {values}") # the output is come by using the f string it is noW easy to understanding what is the output WE USE ITEMS method in it 
+    print(f"the value of the {key} is {values}") # the output is come by using the f string it is noW easy to understanding what is the output WE USE ITEMS method in it
+
+
+                                            ####day 34 jst basic or method in the dictionary ####
+                                            
+# Having some important method in the dictionary in python whichis almost similer to set or list
+
+    #  .update()
+    #  .clear()
+    #  del()
+    #  .pop()
+    #  .popitem()
+
+# example of the update() in the dic
+emp1={221:12,222:13,224:14,225:15,226:16}
+emp2={321:22,322:23,324:24,325:25,326:26}
+
+emp1.update(emp2) #use thee update() method of dic
+
+print(emp1)
+
+# emp1.clear()  [clear] was comment ou because if we un comment it it provide the erroe o the other line so we dont want that in our code ...
+emp1.pop(222)
+emp1.popitem()
+# del emp1 [del] was comment ou because if we un comment it it provide the erroe o the other line so we dont want that in our code ...
+
+print(emp1)
+print(emp2)
+
 
                                                                           ### DAY 33 IS DONE ###
                                                                           ### TIMING= 12:30 ###
